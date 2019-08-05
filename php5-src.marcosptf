@@ -125,6 +125,8 @@ make install
 ./configure --enable-marquinhos
 make
 make install
+#rodando a compilacao em linha unica com ext_ habilitada;
+make clean && ./buildconf --force && ./configure --enable-debug --enable-maintainer-zts --enable-marquinhos &&  make && make install
 
 
 ######################################
