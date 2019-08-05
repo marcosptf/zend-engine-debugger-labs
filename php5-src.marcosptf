@@ -126,7 +126,7 @@ make install
 make
 make install
 #rodando a compilacao em linha unica com ext_ habilitada;
-make clean && ./buildconf --force && ./configure ./configure --disable-all --disable-cgi --enable-debug --enable-maintainer-zts --enable-marquinhos &&  make && make install
+make clean && ./buildconf --force && ./configure --disable-all --disable-cgi --enable-debug --enable-maintainer-zts --enable-marquinhos &&  make && make install
 
 
 ######################################
